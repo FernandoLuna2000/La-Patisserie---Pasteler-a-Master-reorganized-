@@ -1,0 +1,45 @@
+body{
+  background-image: url(Images/Fondo_3.jpeg);
+  background-size:contain;
+}
+header{
+  display:flex;
+  flex-flow:wrap;
+  }
+h1{
+  border-bottom: 5px solid #663300;
+  }
+ul{
+  list-style-type:none;
+  display: flex;
+  flex-direction:row;
+  background: #eec0c6;
+  height: 100%;
+  width: 100%;
+  font-size: 5vh;
+}
+
+.bg-custome{
+  background-color: #eec0c6;
+}
+li{
+  flex-grow:1
+}
+.ModA, .ModB, .ModC, .ModD, .ModBot{
+  margin-top: 50px;
+  margin-left: 70px;
+}
+footer{
+  height: 10%;
+}
+.Insta, .Tweet, .Face{
+  height: 50px;
+  width:50px;
+  margin-left: 20px;
+  text-align: center;
+  float:right;
+}
+.alert-custom{
+  background-color:#cc9999;
+  color:#fefcbd;
+}

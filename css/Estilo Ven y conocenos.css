@@ -1,0 +1,104 @@
+body{
+  background-image: url(../Images/Fondo_3.jpeg);
+  background-size: contain;
+}
+header{
+  display:flex;
+  flex-flow:wrap;
+  }
+h1{
+  border-bottom: 5px solid #663300;
+  }
+ul{
+  list-style-type:none;
+  display: flex;
+  flex-direction:row;
+  background: #eec0c6;
+  height: 100%;
+  width: 100%;
+  font-size: 5vh;
+}
+li{
+  flex-grow:1
+}
+
+.bg-custome{
+  background-color: #eec0c6;
+}
+
+.modA, .modB, .modC, .modD{
+  height: 250px;
+  width:225px;
+  padding: 20px;
+  text-align: center;
+  margin-bottom:40px;
+  margin-left:2%;
+  float:left;
+  color:#fefcbd;
+}
+.modE, .modF, .modG, .modH{
+  height: 250px;
+  width:255px;
+  padding: 20px;
+  text-align: left;
+  margin-bottom:40px;
+  margin-left:2%;
+  float:left;
+  color:#fefcbd;
+}
+.Prod1, .Prod2, .Prod3, .Prod4{
+  height: 220px;
+  width:195px;
+  border:2px solid #000000;
+  color:#fefcbd;
+  text-align: center;
+  margin-top:1%;
+  margin-left: 7%;
+  float:inherit;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-origin: content-box;
+}
+.Prod5, .Prod6, .Prod7, .Prod8{
+  height: 220px;
+  width:1000px;
+  border:2px #F25DA1;
+  text-align: left;
+  margin-top:1%;
+  background-color:#cc9999;
+  margin-left: 7%;
+  float:inherit;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-origin: content-box;
+  padding: 5px;
+  color: Black;
+}
+  footer{
+    height: 10%;
+  }
+  .Insta, .Tweet, .Face{
+    height: 50px;
+    width:50px;
+    margin-left: 20px;
+    text-align: center;
+    float:right;
+  }
+  p{
+  color:#fefcbd;
+}
+.boton_personalizado{
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #1883ba;
+    border-radius: 6px;
+    border: 2px solid #0016b0;
+  }
+  .alert-custom{
+    background-color:#cc9999;
+    color:#fefcbd;
+  }
+  .nodo{
+    height: 200px;
+    width: 250px;
+  }

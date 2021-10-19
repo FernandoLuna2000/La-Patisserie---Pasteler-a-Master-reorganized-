@@ -1,0 +1,9 @@
+base = '[{"id" : 1 , "imagen" : "Images/crea/crea1.png"}]';
+
+Relleno = '[{"id" : 2 , "imagen" : "Images/crea/crea2.png"}, {"id" : 3 , "imagen" : "Images/crea/crea3.png"}, {"id" : 4 , "imagen" : "Images/crea/crea4.png"}]';
+
+decos = '[{"id" : 5 , "imagen" : "Images/crea/crea2_1.png"}, {"id" : 6 , "imagen" : "Images/crea/crea3_1.png"}, {"id" : 7 , "imagen" : "Images/crea/crea4_1.png"}]';
+
+decom = '[{"id" : 8 , "imagen" : "Images/crea/crea2_2.png"}, {"id" : 9 , "imagen" : "Images/crea/crea3_2.png"}, {"id" : 10 , "imagen" : "Images/crea/crea4_2.png"}]';
+
+decoe = '[{"id" : 11 , "imagen" : "Images/crea/crea2_3.png"}, {"id" : 12 , "imagen" : "Images/crea/crea3_3.png"}, {"id" : 13 , "imagen" : "Images/crea/crea4_3.png"}]';

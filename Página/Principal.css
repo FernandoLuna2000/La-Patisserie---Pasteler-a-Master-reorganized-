@@ -1,0 +1,152 @@
+header{
+  display:flex;
+  flex-flow:wrap;
+  }
+  h1{
+    border-bottom: 5px solid #663300;
+  }
+nav{
+  background: #ccff99;
+}
+ul{
+  list-style-type:none;
+  display: flex;
+  flex-direction:row;
+  background: #ffff99;
+  height: 100%;
+  width: 100%;
+  font-family: Corbel;
+  font-size: 25px;
+  text-align: center;
+}
+li{
+  flex-grow:1
+}
+
+article{
+  background: #9ccc65;
+}
+.modA{
+  height: 250px;
+  width:225px;
+  padding: 20px;
+  text-align: center;
+  margin-bottom:40px;
+  margin-left:2%;
+  float:left;
+}
+.Prod1{
+  height: 220px;
+  width:195px;
+  border:1px solid #000000;
+  text-align: center;
+  margin-top:1%;
+  margin-left: 7%;
+  float:inherit;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-origin: content-box;
+  background-image: url(images/4.jpg);
+}
+.bto1{
+  margin-top: 5%;
+}
+.modB{
+  height: 250px;
+  width:225px;
+  padding: 20px;
+  text-align: center;
+  margin-bottom:40px;
+  margin-left:2%;
+  float:left;
+}
+.Prod2{
+  height: 220px;
+  width:195px;
+  background-color:#ffcccc;
+  border:1px solid #000000;
+  text-align: center;
+  margin-top:1%;
+  margin-left: 7%;
+  float:inherit;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-origin: content-box;
+  background-image: url(images/5.jpg);
+}
+.bto2{
+  margin-top: 5%;
+}
+.modC{
+  height: 250px;
+  width:225px;
+  padding: 20px;
+  text-align: center;
+  margin-bottom:40px;
+  margin-left:2%;
+  float:left;
+}
+.Prod3{
+  height: 220px;
+  width:195px;
+  background-color:#ffcccc;
+  border:1px solid #000000;
+  text-align: center;
+  margin-top:1%;
+  margin-left: 7%;
+  float:inherit;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-origin: content-box;
+  background-image: url(images/6.jpg);
+}
+.bto3{
+  margin-top: 5%;
+}
+.modD{
+  height: 250px;
+  width:225px;
+  padding: 20px;
+  text-align: center;
+  margin-bottom:40px;
+  margin-left:2%;
+  float:left;
+}
+.Prod4{
+  height: 220px;
+  width:195px;
+  background-color:#ffcccc;
+  border:1px solid #000000;
+  text-align: center;
+  margin-top:1%;
+  margin-left: 7%;
+  float:inherit;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-origin: content-box;
+  background-image: url(images/7.jpg);
+}
+.bto4{
+  margin-top: 5%;
+}
+footer{
+  height: 10%;
+}
+.Face{
+  height: 50px;
+  width:50px;
+  text-align: center;
+  float:right;
+}
+.Insta{
+  height: 50px;
+  width:50px;
+  text-align: center;
+  float:right;
+}
+.Tweet{
+  height: 50px;
+  width:50px;
+  text-align: center;
+  float:right;
+}

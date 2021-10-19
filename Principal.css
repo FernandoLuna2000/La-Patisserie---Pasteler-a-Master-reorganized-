@@ -1,0 +1,61 @@
+body{
+  background-image: url(Images/Fondo_3.jpeg);
+  background-size: contain;
+}
+header{
+  display:flex;
+  flex-flow:wrap;
+  }
+h1{
+  border-bottom: 5px solid #663300;
+  }
+ul{
+  list-style-type:none;
+  display: flex;
+  flex-direction:row;
+  background: #eec0c6;
+  height: 100%;
+  width: 100%;
+  font-size: 5vh;
+}
+.bg-custome{
+  background-color: #eec0c6;
+}
+li{
+  flex-grow:1
+}
+.modA, .modB, .modC, .modD, .modE, .modF, .modG, .modH{
+  height: 250px;
+  width:225px;
+  padding: 20px;
+  text-align: center;
+  margin-bottom:40px;
+  margin-left:2%;
+  float:left;
+
+}
+.Prod1, .Prod2, .Prod3, .Prod4, .Prod5, .Prod6, .Prod7, .Prod8{
+  height: 220px;
+  width:195px;
+  text-align: center;
+  margin-top:1%;
+  margin-left: 7%;
+  float:inherit;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-origin: content-box;
+}
+.bto1, .bto2, .bto3, .bto4{
+  margin-top: 5%;
+}
+
+footer{
+  height: 10%;
+}
+.Insta, .Tweet, .Face{
+  height: 50px;
+  width:50px;
+  margin-left: 20px;
+  text-align: center;
+  float:right;
+}
